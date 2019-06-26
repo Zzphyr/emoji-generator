@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Permanent Marker', cursive;
+}
+
+select {
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+  font-size: 2rem;
+  width: 90%;
+}
+
+button {
+  font-size: 2rem;
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 10px 20px;
+  transition: 150ms ease;
+}
+
+button:hover {
+  color: white;
+  background-color: darkgrey;
+  border-radius: 20px;
+  text-shadow: 2px 2px black;
+}
+
+.page-content {
+  font-size: 24px;
+  width: 100%;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 170px;
+    margin: 0px;
+    padding: 20px;
+}
+
+.dropdowns {
+    margin: auto;
+    display: flex;
+    max-width: 300px;
+}
+
+.dropdowns-eyes, .dropdowns-mouth {
+    flex-grow: 1;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
